@@ -1,0 +1,89 @@
+* {
+	margin: 0;
+	padding: 0;
+    box-sizing: border-box;
+}
+
+* {
+	font-family: 'Hedvig Letters Sans', sans-serif;
+}
+
+#nav-home, #nav-project, #nav-tools, #nav-contact {
+	color: lightsalmon;
+}
+
+#banner-message, p {
+	font-family: 'Hedvig Letters Sans', sans-serif;
+	font-family: 'PT Sans Narrow', sans-serif;
+}
+
+#name {
+	color: lightsalmon;
+}
+
+#check-icon {
+	color: lightsalmon;
+}
+
+#border {
+	border-radius: 20px;
+}
+
+#profile-photo {
+	border-radius: 50px;
+}
+
+#button {
+	border-radius: 20px;
+	color:white;
+	border-color: lightsalmon;
+	background-color: salmon;
+}
+
+#button:hover {
+	 animation: shake 0.5s ease-in-out infinite;
+	}
+
+/* Define the animation */
+@keyframes shake {
+  0% { transform: translateX(0); }
+  25% { transform: translateX(-5px); }
+  50% { transform: translateX(5px); }
+  75% { transform: translateX(-5px); }
+  100% { transform: translateX(5px); }
+}
+
+#email-icon {
+	width: 25px;
+	margin-right: 5px;
+}
+
+.bg-secondary {
+	background-color: #3C4142 !important;
+}
+
+
+#send-button:hover {
+	background-color: lightsalmon;
+	color: white;
+}
+
+#footer {
+	font-size: 12px;
+}
+
+@media only screen and (min-width: 768px) {
+  #left-panel {
+    position: fixed;
+    width: 350px;
+    height: 100vh;
+    top: 0;
+  }
+  #landing-page {
+  	margin-left: 350px;
+  }
+  nav {
+  	margin-left: 350px;
+  }
+}
+
