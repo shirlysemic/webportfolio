@@ -1,6 +1,6 @@
 {
     "capstone": {
-        "liveLink": "<github page link>",
+        "liveLink": "<https://shirlysemic.github.io/webportfolio/>",
         "name": "<Shirly Gegantino>",
         "isMulti": false
     }
