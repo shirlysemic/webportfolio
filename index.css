@@ -4,18 +4,29 @@
     box-sizing: border-box;
 }
 
-* {
+/* * {
 	font-family: 'Hedvig Letters Sans', sans-serif;
-}
+} */
 
 #nav-home, #nav-project, #nav-tools, #nav-contact {
 	color: lightsalmon;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 2px;
+	word-spacing: 8px;
+
 }
 
-#banner-message, p {
-	font-family: 'Hedvig Letters Sans', sans-serif;
-	font-family: 'PT Sans Narrow', sans-serif;
+#banner-message {
+	font-family: Lato, sans-serif;
+	font-weight: 1000;
+	font-size: 50px;
+	letter-spacing: .5px;
+	line-height: 45px;
+  	font-style: bold;
+	text-transform: uppercase;
 }
+
 
 #name {
 	color: lightsalmon;
